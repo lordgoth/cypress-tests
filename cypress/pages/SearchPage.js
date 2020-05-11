@@ -14,7 +14,6 @@ export default class SearchPage extends BasePage {
     }
     
     verifyProductIsDisplayed(product_name) {
-        cy.debug();
         this.Assert.verifySelectorContainsTextByXPATH(this.productNameLink, product_name);
     }
 }
