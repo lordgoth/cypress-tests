@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^4.5.0",
+    "allure-commandline": "^2.9.0",
+    "minimist": "1.2.5",
+    "mocha": "^6.2.0",
+    "mocha-allure-reporter": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run --reporter mocha-allure-reporter --browser chrome",
+    "report": "./node_modules/.bin/allure generate allure-results --clean -o allure-report",
+    "clean": "rm -r allure-results/ allure-report/"
+  },
+  "author": "",
+  "license": "ISC"
+}
