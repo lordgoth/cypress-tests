@@ -1,5 +1,6 @@
 {
   "baseUrl": "http://automationpractice.com",
   "video": false,
-  "integrationFolder": "cypress/specs"
+  "integrationFolder": "cypress/specs",
+  "$schema": "https://on.cypress.io/cypress.schema.json"
 }

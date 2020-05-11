@@ -1,15 +1,17 @@
 import HomePage from '../../pages/HomePage';
+import SearchPage from '../../pages/SearchPage';
 
 describe('HomePage Tets', () => {
-  context('Check Logo Icon on HomePage', () => {
-    const home = new HomePage();
+    const home_page = new HomePage();
+    const search_page = new SearchPage();
 
-    it('I go to the HomePage', () => {
-      home.visitHomePage();
+    it('Verify user can open Homepage', () => {
+        home_page.visitHomePage();
+        home_page.Assert.verifySelectorExistByCSS(home_page.yourLogoIcon);
     })
 
-    it('I verify the Logo icon should exist in the HomePage', () => {
-      cy.getElementByCSSSelectors(home.yourLogoIcon).should("exist");
+    it('Verify user can search product using product name', () => {
+        search_page.search("Faded Short Sleeve T-shirts");
+        search_page.verifyProductIsDisplayed("Faded Short Sleeve T-shirts");
     })
-  })
 })

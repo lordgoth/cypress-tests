@@ -1,9 +1,15 @@
-export default class BasePage  {
-  constructor() {
+import Assert from './Assert';
 
-  }
+export default class BasePage {
+    constructor() {
+        this.Assert = new Assert();
+    }
 
-  getElementByCSSSelectors(css_selector) {
-    return cy.get(css_selector)
-  }
+    fillField(css_selector, input) {
+        return cy.get(css_selector).type(input);
+    }
+
+    clickSelector(css_selector) {
+        return cy.get(css_selector).click();
+    }
 }

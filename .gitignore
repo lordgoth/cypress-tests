@@ -1,0 +1,8 @@
+/package-lock.json
+/allure-report/
+/allure-results/
+/cypress/screenshots/
+node_modules
+nbproject
+.vscode/
+debug.log
