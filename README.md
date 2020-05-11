@@ -20,8 +20,7 @@ You will need `npm` in order to install this probject. Please refer to the link 
 - Allure - Used to generate tests report
 
 ### Versioning
-The maser branch contains the latest version of this project
+The master branch contains the latest version of this project
 
 ### Authors
 - Hoang Tao - Initial work - Evizi
-- See also the list of contributors who participated in this project.

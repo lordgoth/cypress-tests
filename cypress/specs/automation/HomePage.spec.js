@@ -1,7 +1,7 @@
 import HomePage from '../../pages/HomePage';
 import SearchPage from '../../pages/SearchPage';
 
-describe('HomePage Tets', () => {
+describe('HomePage Tests', () => {
     const home_page = new HomePage();
     const search_page = new SearchPage();
 
