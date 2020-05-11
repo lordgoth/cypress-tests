@@ -9,4 +9,8 @@ export default class HomePage extends BasePage {
     visitHomePage() {
         cy.visit('/index.php');
     }
+
+    verifyHomepageDisplayed() {
+        this.Assert.verifySelectorExistByCSS(this.yourLogoIcon);
+    }
 }

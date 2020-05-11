@@ -7,7 +7,7 @@ describe('HomePage Tests', () => {
 
     it('Verify user can open Homepage', () => {
         home_page.visitHomePage();
-        home_page.Assert.verifySelectorExistByCSS(home_page.yourLogoIcon);
+        home_page.verifyHomepageDisplayed();
     })
 
     it('Verify user can search product using product name', () => {

@@ -15,13 +15,13 @@ module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
 
-  on('before:browser:launch', (browser, launchOptions) => {
+  // on('before:browser:launch', (browser, launchOptions) => {
 
-    if (browser.name === 'chrome') {
-      launchOptions.args.push('--remote-debugging-port=9222')
+  //   if (browser.name === 'chrome') {
+  //     launchOptions.args.push('--remote-debugging-port=9222')
 
-      return launchOptions
-    }
+  //     return launchOptions
+  //   }
 
-  })
+  // })
 }
