@@ -1,8 +1,8 @@
 Install project
-npm install
+- npm install
 
 Run project
-npm run-script test
+- npm run-script test
 
 Generate Allure report
-npm run-script report
+- npm run-script report
