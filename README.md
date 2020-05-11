@@ -19,15 +19,9 @@ You will need `npm` in order to install this probject. Please refer to the link 
 - Npm - Dependency Management
 - Allure - Used to generate tests report
 
-### Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
 ### Versioning
 The maser branch contains the latest version of this project
 
 ### Authors
 - Hoang Tao - Initial work - Evizi
 - See also the list of contributors who participated in this project.
-
-### License
-This project is licensed under the MIT License - see the LICENSE.md file for details
