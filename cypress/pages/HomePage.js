@@ -7,10 +7,12 @@ export default class HomePage extends BasePage {
     }
 
     visitHomePage() {
+        cy.allure().step('I visit HomePage');
         cy.visit('/index.php');
     }
 
     verifyHomepageDisplayed() {
+        cy.allure().step('I verify the HomePage is displayed');
         this.Assert.verifySelectorExistByCSS(this.yourLogoIcon);
     }
 }
