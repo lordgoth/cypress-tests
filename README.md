@@ -1,10 +1,10 @@
 # Cypress Automation Project
 
 ## Getting Started
-The test automation framework using Cypress. It also has ability to generate Allure test report.
+The test automation framework is using Cypress. It also has the ability to generate Allure test report.
 
 ### Prerequisites
-You will need `npm` in order to install this probject. Please refer to the link below
+You will need `npm` in order to install this project. Please refer to the link below
 - https://www.npmjs.com/get-npm
 
 ### How to run
