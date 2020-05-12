@@ -9,11 +9,13 @@ export default class SearchPage extends BasePage {
     }
     
     search(search_string) {
+        cy.allure().step('I search with search string "' + search_string + '"');
         this.fillField(this.searchInput, search_string);
-        this.clickSelector(this.searchButton);       
+        this.clickSelector(this.searchButton);      
     }
     
     verifyProductIsDisplayed(product_name) {
+        cy.allure().step('I verify product "' + product_name + '" is displayed in the search result');
         this.Assert.verifySelectorContainsTextByXPATH(this.productNameLink, product_name);
     }
 }
