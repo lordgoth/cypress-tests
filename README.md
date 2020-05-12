@@ -9,7 +9,7 @@ You will need `yarn` in order to install this project. Please refer to the link 
 
 ### How to run
 1. Clone this repo: `git clone https://github.com/lordgoth/cypress-tests.git`
-2. Go to its root: `cd cypress`
+2. Go to its root: `cd cypress-tests`
 3. Install the dependencies: `yarn install`
 4. Run the existing tests: `yarn test`
 5. Generate the Allure report: `yarn report`
