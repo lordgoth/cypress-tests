@@ -4,6 +4,7 @@ export default class HomePage extends BasePage {
     constructor() {
         super();
         this.yourLogoIcon = '.logo';
+        this.homepageSlider = '#homepage-slider';
     }
 
     visitHomePage() {
@@ -13,6 +14,6 @@ export default class HomePage extends BasePage {
 
     verifyHomepageDisplayed() {
         cy.allure().step('I verify the HomePage is displayed');
-        this.Assert.verifySelectorExistByCSS(this.yourLogoIcon);
+        this.Assert.verifySelectorExistByCSS(this.homepageSlider);
     }
 }
